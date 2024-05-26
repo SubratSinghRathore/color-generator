@@ -1,0 +1,49 @@
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boxColor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#box1 {
+    background-color: rgb(78, 202, 161);
+}
+
+#box2 {
+    background-color: rgb(127, 140, 255);
+}
+
+#box3 {
+    background-color: rgb(195, 255, 127);
+}
+
+#box4 {
+    background-color: rgb(186, 122, 33);
+}
+
+.random {
+    border: 1px solid black;
+    width: 50%;
+    height: 20vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    cursor: pointer;
+    color: rgb(62, 12, 11);
+    background-color: bisque;
+    transition: 1s;
+}
